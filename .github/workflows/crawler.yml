@@ -6,7 +6,8 @@ on:
     - cron: "0 2,4,6,8,10 * * *" # 每小时整点运行一次(实际有偏差) 或者 "*/30 * * * *" (每半小时执行一次) 或者 "*/30 0-14 * * *"(每天早上 8 点到晚上 10 点期间，每半小时运行一次)
   workflow_dispatch:
   pull_request:
-    - myself
+    branches:
+      - myself
 
 # 添加权限设置
 permissions:
