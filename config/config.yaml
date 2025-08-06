@@ -71,3 +71,7 @@ platforms:
     name: "知乎"
   - id: "xueqiu"
     name: "雪球"
+  - id: "jin10"
+    name: "金十数据"
+  - id: "github"
+    name: "github"
