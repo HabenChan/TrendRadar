@@ -5,6 +5,12 @@ A股
 !预测
 
 github
+java
+golang
+rust
+
+devops
+k8s
 
 DeepSeek
 梁文锋
