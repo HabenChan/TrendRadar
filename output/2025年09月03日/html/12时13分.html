@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 132</p><p>生成时间: 2025-09-03 12:13:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">10</td>
+                <td class="percentage">7.58%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mLLC5yXDd0" target="_blank" class="news-link">历史性大阅兵，中国给世界的10个强烈信号</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时13分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E2%80%9C%E4%B8%AD%E5%9B%BD%E5%A3%AB%E5%85%B5%E2%80%9D%E4%BD%95%E4%BB%A5%E6%84%9F%E4%BA%BA%E5%BF%83%E9%AD%84" target="_blank" class="news-link">“中国士兵”何以感人心魄</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250903113423460800" target="_blank" class="news-link">金十图示：2025年09月03日（周三）富时中国A50指数成分股午盘收盘行情一览：多数成分股下跌，电池、化学制药板块飘红</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时13分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E9%98%85%E5%85%B5%E6%A3%80%E9%98%85%E8%BD%A6%E8%83%8C%E5%90%8E%E7%9A%84%E5%B7%A5%E4%B8%9A%E6%88%90%E9%95%BF" target="_blank" class="news-link">中国阅兵检阅车背后的工业成长</a> [7] <font color='grey'>- 12时13分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%BF%99%E6%98%AF%E4%B8%AD%E5%9B%BD%E4%BA%BA%E4%B8%8D%E8%83%BD%E5%BF%98%E5%8D%B4%E7%9A%845098%E5%A4%A9" target="_blank" class="news-link">这是中国人不能忘却的5098天</a> [9] <font color='grey'>- 12时13分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7545694965381500442/" target="_blank" class="news-link">最帅变阵 不是电影特效是中国军人</a> [10] <font color='grey'>- 12时13分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1946262231814739951" target="_blank" class="news-link">日媒称中国导弹驱逐舰绕了日本一圈，释放了哪些信号？</a> [15] <font color='grey'>- 12时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250903111640020800" target="_blank" class="news-link">金十图示：2025年09月03日（周三）富时中国A50指数期货技术面一览（一小时图）</a> [17] <font color='grey'>- 12时13分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7545473228819562537/" target="_blank" class="news-link">牛弹琴：中国向世界传达10个强烈信号</a> [20] <font color='grey'>- 12时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250903105945219800" target="_blank" class="news-link">金十图示：2025年09月03日（周三）中国科技互联网公司市值排名TOP 50一览</a> [26] <font color='grey'>- 12时13分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">6</td>
+                <td class="percentage">4.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250903113340343800" target="_blank" class="news-link">印度贸易部长Piyush Goyal表示，印度希望在11月之前与美国达成双边贸易协定。</a> [6] <font color='grey'>- 12时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250903113133638800" target="_blank" class="news-link">美国本周部分经济数据公布时间有调整</a> [8] <font color='grey'>- 12时13分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28344705&amp;amp;topic_name=%E9%98%85%E5%85%B5%E5%89%8D%E5%A4%95%E6%97%A5%E6%9C%AC%E5%B0%84%E5%AF%BC%E5%BC%B9%E6%8C%91%E8%A1%85" target="_blank" class="news-link">阅兵前夕日本射导弹挑衅</a> [9] <font color='grey'>- 12时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250903112300559800" target="_blank" class="news-link">俄罗斯和美国正在协调下一轮会谈的日期和地点。</a> [14] <font color='grey'>- 12时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250903111142809800" target="_blank" class="news-link">日本长期债券加入全球跌势，政治不确定性加剧不安情绪</a> [22] <font color='grey'>- 12时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250903110134366800" target="_blank" class="news-link">日本央行行长植田和男进入首相官邸。</a> [25] <font color='grey'>- 12时13分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">比亚迪 王传福</td>
+                <td class="count">1</td>
+                <td class="percentage">0.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/SZ002594" target="_blank" class="news-link">比亚迪</a> [29] <font color='grey'>- 12时13分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">0.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250903110145950800" target="_blank" class="news-link">金十图示：2025年09月03日（周三）全球主要科技与互联网公司市值变化</a> [24] <font color='grey'>- 12时13分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
