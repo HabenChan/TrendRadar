@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 107</p><p>生成时间: 2025-09-05 14:16:03</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">6</td>
+                <td class="percentage">5.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%99%AE%E4%BA%AC%E7%9C%8B%E5%88%B0%E4%B8%AD%E5%9B%BD%E8%A7%82%E4%BC%97%E7%A7%92%E5%88%87%E4%B8%AD%E6%96%87%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D1%26cate%3D5001%26q%3D%2523%25E6%2599%25AE%25E4%25BA%25AC%25E7%259C%258B%25E5%2588%25B0%25E4%25B8%25AD%25E5%259B%25BD%25E8%25A7%2582%25E4%25BC%2597%25E7%25A7%2592%25E5%2588%2587%25E4%25B8%25AD%25E6%2596%2587%2523%26band_rank%3D1%26stream_entry_id%3D31%26pos%3D0%26flag%3D1%26dgr%3D0%26c_type%3D31%26filter_type%3Drealtimehot%26lcate%3D5001%26display_time%3D1757052375%26pre_seqid%3D175705237508201931395102" target="_blank" class="news-link">普京看到中国观众秒切中文</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%85%A8%E7%90%83%E7%AC%AC%E4%BA%8C%E5%A4%A7%E7%BD%91%E7%BA%A2%E6%97%A0%E8%AF%AD%E5%93%A5%E4%B8%AD%E5%9B%BD%E8%A1%8C%E5%AE%98%E5%AE%A3%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D2%26cate%3D5001%26q%3D%2523%25E5%2585%25A8%25E7%2590%2583%25E7%25AC%25AC%25E4%25BA%258C%25E5%25A4%25A7%25E7%25BD%2591%25E7%25BA%25A2%25E6%2597%25A0%25E8%25AF%25AD%25E5%2593%25A5%25E4%25B8%25AD%25E5%259B%25BD%25E8%25A1%258C%25E5%25AE%2598%25E5%25AE%25A3%2523%26band_rank%3D2%26stream_entry_id%3D31%26pos%3D1%26flag%3D0%26dgr%3D0%26c_type%3D31%26filter_type%3Drealtimehot%26lcate%3D5001%26display_time%3D1757052375%26pre_seqid%3D175705237508201931395102" target="_blank" class="news-link">全球第二大网红无语哥中国行官宣</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7546461961865874982/" target="_blank" class="news-link">普京看到中国观众一秒切换中文问候</a> [7] <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%AF%9B%E5%AE%81%E5%8F%91%E4%B8%AD%E5%9B%BD%E9%98%85%E5%85%B5%E5%AF%B9%E6%AF%94%E5%9B%BE%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D14%26cate%3D5001%26q%3D%2523%25E6%25AF%259B%25E5%25AE%2581%25E5%258F%2591%25E4%25B8%25AD%25E5%259B%25BD%25E9%2598%2585%25E5%2585%25B5%25E5%25AF%25B9%25E6%25AF%2594%25E5%259B%25BE%2523%26band_rank%3D14%26stream_entry_id%3D31%26pos%3D14%26flag%3D1%26dgr%3D0%26c_type%3D31%26filter_type%3Drealtimehot%26lcate%3D5001%26display_time%3D1757052375%26pre_seqid%3D175705237508201931395102" target="_blank" class="news-link">毛宁发中国阅兵对比图</a> [14] <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7546019916533809171/" target="_blank" class="news-link">美国国防部长：关注到中国举行阅兵</a> [20] <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%9F%A9%E7%94%B7%E5%AD%90%E4%B8%80%E4%B8%AA%E6%9C%882%E6%AC%A1%E8%A2%AD%E5%87%BB%E4%B8%AD%E5%9B%BD%E6%B8%B8%E5%AE%A2" target="_blank" class="news-link">韩男子一个月2次袭击中国游客</a> [28] <font color='grey'>- 14时16分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">3</td>
+                <td class="percentage">2.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250905135344314800" target="_blank" class="news-link">日本央行行长植田和男将于10月3日访问大阪并举行新闻发布会。</a> [9] <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250905135320328800" target="_blank" class="news-link">LG能源解决方案：与韩国政府合作，确保公司员工及承包商员工得到释放。</a> [11] <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250905134619345800" target="_blank" class="news-link">俄罗斯总统普京：我们收到了美国公司的提议，希望在阿拉斯加开展合作。</a> [20] <font color='grey'>- 14时16分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能 LLM 大模型</td>
+                <td class="count">2</td>
+                <td class="percentage">1.87%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%88%91%E5%9B%BDAI%E5%85%BB%E7%8C%AA%E6%8A%80%E6%9C%AF%E6%9C%89%E5%A4%9A%E8%B6%85%E5%89%8D" target="_blank" class="news-link">我国AI养猪技术有多超前</a> [6] <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3754969" target="_blank" class="news-link">博通Q3 AI芯片收入超预期增63%，神秘新客户下单百亿，料下财年AI前景“大幅”改善 | 财报见闻</a> [10] <font color='grey'>- 14时16分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">0.93%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/SZ002202" target="_blank" class="news-link">金风科技</a> [21] <font color='grey'>- 14时16分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
