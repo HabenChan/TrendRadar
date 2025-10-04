@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 111</p><p>生成时间: 2025-10-04 16:12:14</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">21</td>
+                <td class="percentage">18.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7556525544398045211/" target="_blank" class="news-link">高市早苗或成日本首个女首相</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%E9%A2%84%E8%AE%A1%E5%B0%86%E6%88%90%E6%97%A5%E6%9C%AC%E9%A6%96%E4%BD%8D%E5%A5%B3%E9%A6%96%E7%9B%B8" target="_blank" class="news-link">高市早苗预计将成日本首位女首相</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%97%A5%E6%9C%AC%E6%88%96%E5%B0%86%E8%BF%8E%E6%9D%A5%E9%A6%96%E4%BD%8D%E5%A5%B3%E9%A6%96%E7%9B%B8%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26band_rank%3D1%26c_type%3D31%26flag%3D0%26pos%3D0%26cate%3D5001%26realpos%3D1%26stream_entry_id%3D31%26q%3D%2523%25E6%2597%25A5%25E6%259C%25AC%25E6%2588%2596%25E5%25B0%2586%25E8%25BF%258E%25E6%259D%25A5%25E9%25A6%2596%25E4%25BD%258D%25E5%25A5%25B3%25E9%25A6%2596%25E7%259B%25B8%2523%26dgr%3D0%26lcate%3D5001%26filter_type%3Drealtimehot%26display_time%3D1759565210%26pre_seqid%3D17595652102020235166095" target="_blank" class="news-link">日本或将迎来首位女首相</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2258967" target="_blank" class="news-link">高市早苗当选日本自民党总裁</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%E5%BD%93%E9%80%89%E6%97%A5%E6%9C%AC%E8%87%AA%E6%B0%91%E5%85%9A%E6%80%BB%E8%A3%81" target="_blank" class="news-link">高市早苗当选日本自民党总裁</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8nAyW4fQDGi" target="_blank" class="news-link">日本政治学专家：新任自民党总裁将面临多重压力</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251004154209204800" target="_blank" class="news-link">自民党选出首位女总裁 11天后日本或产生首位女首相</a> [6] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2258978" target="_blank" class="news-link">日本或迎首位女首相</a> [7] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251004153825134800" target="_blank" class="news-link">美国中东问题特使威特科夫将前往中东</a> [7] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E9%9F%A9%E5%9B%BD%E5%8D%9A%E4%B8%BB%E5%93%AD%E8%AF%89%E5%9B%BD%E5%AE%B6%E6%B2%A1%E6%9C%89%E5%AD%98%E5%9C%A8%E6%84%9F&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26band_rank%3D8%26c_type%3D31%26flag%3D0%26pos%3D8%26cate%3D5001%26realpos%3D8%26stream_entry_id%3D31%26q%3D%25E9%259F%25A9%25E5%259B%25BD%25E5%258D%259A%25E4%25B8%25BB%25E5%2593%25AD%25E8%25AF%2589%25E5%259B%25BD%25E5%25AE%25B6%25E6%25B2%25A1%25E6%259C%2589%25E5%25AD%2598%25E5%259C%25A8%25E6%2584%259F%26dgr%3D0%26lcate%3D5001%26filter_type%3Drealtimehot%26display_time%3D1759565210%26pre_seqid%3D17595652102020235166095" target="_blank" class="news-link">韩国博主哭诉国家没有存在感</a> [8] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251004152102572800" target="_blank" class="news-link">经济学家：高市早苗当选确实让日本央行实施加息政策的难度有所增加</a> [8] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8nAxrZ4cxhM" target="_blank" class="news-link">特朗普还在世，想上1美元纪念币？美国教授：过不了法律这关</a> [9] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1957806831721214788" target="_blank" class="news-link">高市早苗当选自民党总裁，预计将成为日本第一位女首相，对日本政坛意味着什么？她有哪些政治主张？</a> [11] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251004144414079800" target="_blank" class="news-link">卡塔尔等国欢迎哈马斯就美国“20点计划”提交正式回应</a> [11] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31706159" target="_blank" class="news-link">日本自民党总裁出炉！“奈良女”高市早苗何许人也</a> [12] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251004142704135800" target="_blank" class="news-link">机构：高市早苗当选后，日本央行10月加息可能性已有所减弱</a> [13] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7557257724652686890/" target="_blank" class="news-link">新任日本自民党总裁将面临多重压力</a> [15] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251004135523613800" target="_blank" class="news-link">高市早苗当选日本自民党新任总裁</a> [17] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E9%9F%A9%E5%9B%BD%E9%83%A8%E9%98%9F%E9%94%85%E5%8E%9F%E8%BA%AB%E6%98%AF%E5%89%A9%E8%8F%9C%E7%8C%AA%E9%A3%9F%E7%B2%A5&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26band_rank%3D18%26c_type%3D31%26flag%3D1%26pos%3D18%26cate%3D5001%26realpos%3D18%26stream_entry_id%3D31%26q%3D%25E9%259F%25A9%25E5%259B%25BD%25E9%2583%25A8%25E9%2598%259F%25E9%2594%2585%25E5%258E%259F%25E8%25BA%25AB%25E6%2598%25AF%25E5%2589%25A9%25E8%258F%259C%25E7%258C%25AA%25E9%25A3%259F%25E7%25B2%25A5%26dgr%3D0%26lcate%3D5001%26filter_type%3Drealtimehot%26display_time%3D1759565210%26pre_seqid%3D17595652102020235166095" target="_blank" class="news-link">韩国部队锅原身是剩菜猪食粥</a> [18] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31726973" target="_blank" class="news-link">人物｜日本或迎来首位女首相：玩摇滚的高市早苗反对女性当天皇</a> [20] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%97%A5%E6%9C%AC%E6%96%B0%E9%A6%96%E7%9B%B8%E6%88%96%E4%BB%8E%E5%B0%8F%E6%B3%89%E5%92%8C%E9%AB%98%E5%B8%82%E4%B8%AD%E4%BA%A7%E7%94%9F%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26band_rank%3D29%26c_type%3D31%26flag%3D0%26pos%3D29%26cate%3D5001%26realpos%3D29%26stream_entry_id%3D31%26q%3D%2523%25E6%2597%25A5%25E6%259C%25AC%25E6%2596%25B0%25E9%25A6%2596%25E7%259B%25B8%25E6%2588%2596%25E4%25BB%258E%25E5%25B0%258F%25E6%25B3%2589%25E5%2592%258C%25E9%25AB%2598%25E5%25B8%2582%25E4%25B8%25AD%25E4%25BA%25A7%25E7%2594%259F%2523%26dgr%3D0%26lcate%3D5001%26filter_type%3Drealtimehot%26display_time%3D1759565210%26pre_seqid%3D17595652102020235166095" target="_blank" class="news-link">日本新首相或从小泉和高市中产生</a> [29] <font color='grey'>- 16时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">5</td>
+                <td class="percentage">4.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7557171235047129131/" target="_blank" class="news-link">向鹏4-3雨果 晋级中国大满贯半决赛</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E4%B8%AD%E5%9B%BD%E5%A4%A7%E6%BB%A1%E8%B4%AF%E7%94%B7%E5%8D%95%E5%9B%9B%E5%BC%BA%E5%AF%B9%E9%98%B5&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26band_rank%3D9%26c_type%3D31%26flag%3D1%26pos%3D9%26cate%3D5001%26realpos%3D9%26stream_entry_id%3D31%26q%3D%25E4%25B8%25AD%25E5%259B%25BD%25E5%25A4%25A7%25E6%25BB%25A1%25E8%25B4%25AF%25E7%2594%25B7%25E5%258D%2595%25E5%259B%259B%25E5%25BC%25BA%25E5%25AF%25B9%25E9%2598%25B5%26dgr%3D0%26lcate%3D5001%26filter_type%3Drealtimehot%26display_time%3D1759565210%26pre_seqid%3D17595652102020235166095" target="_blank" class="news-link">中国大满贯男单四强对阵</a> [9] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7556571373657817097/" target="_blank" class="news-link">WTT中国大满贯国乒包揽混双金银牌</a> [18] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7557228025893359150/" target="_blank" class="news-link">歼‑35在中国航母作战中的作用</a> [26] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%90%91%E9%B9%8F4-3%E9%99%A9%E8%83%9C%E9%9B%A8%E6%9E%9C+%E6%99%8B%E7%BA%A7%E4%B8%AD%E5%9B%BD%E5%A4%A7%E6%BB%A1%E8%B4%AF4%E5%BC%BA" target="_blank" class="news-link">向鹏4-3险胜雨果 晋级中国大满贯4强</a> [26] <font color='grey'>- 16时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/SZ000988" target="_blank" class="news-link">华工科技</a> [29] <font color='grey'>- 16时12分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
