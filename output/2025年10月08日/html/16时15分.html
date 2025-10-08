@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 106</p><p>生成时间: 2025-10-08 16:15:38</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">6</td>
+                <td class="percentage">5.66%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/00728" target="_blank" class="news-link">中国电信</a> [6] <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E7%95%99%E5%AD%A6%E7%94%9F%E6%BD%9C%E6%B0%B4%E5%A4%B1%E8%B8%AA%E5%8F%AA%E6%89%BE%E5%88%B0%E4%B8%80%E6%A0%B9%E9%81%97%E9%AA%A8" target="_blank" class="news-link">中国留学生潜水失踪只找到一根遗骨</a> [13] <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7558437934974635530/" target="_blank" class="news-link">乌克兰为何千方百计想把中国拉下水</a> [22] <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251008160043731800" target="_blank" class="news-link">中国台湾9月CPI月率 0.11%，前值0.12%。</a> [22] <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251008160010948800" target="_blank" class="news-link">中国台湾9月CPI年率 1.25%，预期1.62%，前值1.60%。</a> [23] <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/00941" target="_blank" class="news-link">中国移动</a> [27] <font color='grey'>- 16时15分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">5</td>
+                <td class="percentage">4.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251008160933193800" target="_blank" class="news-link">土耳其总统埃尔多安：希望F-35问题能够得到解决，美国针对土耳其的《以制裁反击美国敌人法》（CAATSA）制裁能够解除。此次对白宫的访问标志着土美关系进入新的阶段。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251008160807716800" target="_blank" class="news-link">土耳其总统埃尔多安：在与美国总统特朗普会晤期间明确提出了F-35战机相关问题，土耳其被移出该计划没有任何正当理由。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251008160231824800" target="_blank" class="news-link">土耳其总统埃尔多安：美国总统特朗普要求土耳其与哈马斯对话并说服他们，我们支持特朗普的和平努力。</a> [15] <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251008155930124800" target="_blank" class="news-link">油价早盘上涨但窄幅震荡 市场静待美国原油库存数据</a> [24] <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251008154807968800" target="_blank" class="news-link">日本今年第二大IPO落地 募资1566亿日元</a> [30] <font color='grey'>- 16时15分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">特斯拉 马斯克</td>
+                <td class="count">1</td>
+                <td class="percentage">0.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251008160109886800" target="_blank" class="news-link">特斯拉(TSLA.O)美股盘前上涨近1%，此前发布平价版Model Y和Model 3。</a> [19] <font color='grey'>- 16时15分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">ai 人工智能 LLM 大模型</td>
+                <td class="count">1</td>
+                <td class="percentage">0.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31738234" target="_blank" class="news-link">澎湃AI晚新闻丨2025年10月7日</a> [20] <font color='grey'>- 16时15分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
