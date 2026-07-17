@@ -144,9 +144,9 @@ After communication, the author indicated no concerns about server pressure, but
 
 <div align="center">
 
-> **Sponsorship Open**
->
-> Interested in sponsoring? Trigger the auto-reply in my WeChat Official Account to get my contact details
+> Access **ByteDance's in-house Doubao models** alongside **full-strength versions** of leading open-source SOTA models, with comprehensive support for text, visual understanding (VLM), image generation, and other **multimodal capabilities**. Seed-2.1, Seedream 5.0, GLM-5.2, DeepSeek, and more are all available in one place—not only for **efficient coding**, but also for **complex, long-horizon Agent tasks**.
+
+<a href="https://www.volcengine.com/activity/ai618?utm_campaign=hw&amp;utm_content=hw&amp;utm_medium=devrel_tool_web&amp;utm_source=OWO&amp;utm_term=TrendRadar"><img src="_image/banner-volcengine-doubao-ai618.webp" alt="Volcengine Doubao AI Special Offer" width="100%"></a>
 
 </div>
 

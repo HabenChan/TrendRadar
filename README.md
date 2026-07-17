@@ -192,9 +192,9 @@
 
 <div align="center">
 
-> **虚位以待**
->
-> 有意赞助？在微信公众号中触发自动回复，即可获取我的联系方式
+> 一站畅享 **字节跳动自研的豆包大模型** 与主流开源 SOTA 模型的 **满血版本**，全面覆盖文本、视觉理解（VLM）、图像生成等 **多模态能力**。Seed-2.1、Seedream 5.0、GLM-5.2、DeepSeek 等热门模型一站配齐，不止 **高效编程**，更能胜任 **复杂的长程 Agent 任务**。
+
+<a href="https://www.volcengine.com/activity/ai618?utm_campaign=hw&amp;utm_content=hw&amp;utm_medium=devrel_tool_web&amp;utm_source=OWO&amp;utm_term=TrendRadar"><img src="_image/banner-volcengine-doubao-ai618.webp" alt="火山引擎豆包大模型 AI 普惠季" width="100%"></a>
 
 </div>
 
